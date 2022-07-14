@@ -1,9 +1,13 @@
 {
   "version": "1.0.0",
   "name": "@bun-examples/blank",
-  "main": "src/server.ts",
+  "main": "server.ts",
+  "scripts": {
+    "dev": "nodemon && bun server.ts"
+  },
   "devDependencies": {
-    "bun-types": "^0.1.4"
+    "bun-types": "^0.1.4",
+    "nodemon": "^2.0.19"
   },
   "dependencies": {
     "cors": "^2.8.5",
