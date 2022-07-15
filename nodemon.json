@@ -1,7 +1,7 @@
 {
     "verbose": true,
     "ignore": [],
-    "watch": ["*.ts"],
+    "watch": ["src/**/*.ts"],
     "execMap": {
       "ts": "bun server.ts"
     }

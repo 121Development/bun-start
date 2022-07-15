@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "name": "@bun-examples/blank",
+  "name": "bun-test",
   "main": "server.ts",
   "scripts": {
     "dev": "nodemon && bun server.ts"
